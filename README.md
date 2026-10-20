@@ -6,6 +6,7 @@ erişmek için GymTekno **public API**'si kullanılır. Bu klasör nasıl başla
 | Örnek | Ne yapar |
 |---|---|
 | [php-kayit-formu/](php-kayit-formu/) | Tesisin web sitesine konan üyelik ön kayıt formu (PHP, reCAPTCHA'lı) |
+| [kiosk-antrenman/](kiosk-antrenman/) | Salondaki ekranda kart / uygulama QR'ı okutunca üyenin antrenman programını gösteren kiosk (PHP) |
 
 **Canlı doküman (tüm uçlar, alanlar, örnek yanıtlar):**
 `https://open-api.gymteknonetwork.com/api/<tesis>/api/docs`
@@ -141,6 +142,7 @@ Anahtara verilen kapsam bu adlarla eşleşir (dokümanda soldaki başlıklar).
 | `musteri` | Üye kayıtları: liste, arama, detay, ekleme, güncelleme | **Var** |
 | `musteri-referans` | Grup, meslek, satış kanalı, kan grubu listeleri | Yok |
 | `sube-referans` | Şubeler (`branch` objectId eşlemesi) | Yok |
+| `kart-sorgu` | Okutulan kart / uygulama QR'ı → üye kimliği (`musteri/kart-sorgula`; kiosk, dolap, giriş ekranı). Üye listesine erişim vermez | Kısaltılmış ad |
 | `abonelik` | Üyelerin abonelikleri, hareketleri, paket satışı | **Var** |
 | `abonelik-referans` | Satılabilir paketler, kategori, paket grubu, kampanya | Yok |
 | `crm-islem` | Lead / web formu oluşturma, durum güncelleme, görüşme kaydı (YAZMA) | **Var** |
