@@ -1,7 +1,7 @@
 <?php
 /**
  * GymTekno public API için küçük istemci (yalnız PHP curl eklentisi gerekir).
- * Doküman: https://api.gymteknonetwork.com/api/<tesis>/api/docs
+ * Doküman: https://open-api.gymteknonetwork.com/api/<tesis>/api/docs
  */
 class GymTeknoApiHatasi extends RuntimeException
 {

@@ -3,7 +3,7 @@
 Tesisin kendi web sitesine konan "üyelik ön kayıt" formu. Ziyaretçinin bilgileri GymTekno public API ile
 tesisin paneline **potansiyel müşteri** olarak yazılır (panel → Müşteriler → Potansiyel müşteriler).
 
-API dokümanı: `https://api.gymteknonetwork.com/api/<tesis>/api/docs`
+API dokümanı: `https://open-api.gymteknonetwork.com/api/<tesis>/api/docs`
 
 | Dosya | Ne yapar |
 |---|---|

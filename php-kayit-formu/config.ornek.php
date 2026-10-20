@@ -5,7 +5,7 @@
  */
 return [
     // API kökü (sonunda / yok). Tesis kodu ayrıca aşağıda.
-    'api_kok'   => 'https://api.gymteknonetwork.com/api',
+    'api_kok'   => 'https://open-api.gymteknonetwork.com/api',
 
     // Tesis kodu — panele girerken kullanılan tesis no.
     'tesis'     => 'doremsoft',
